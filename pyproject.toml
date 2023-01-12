@@ -1,0 +1,16 @@
+[tool.pdm]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Mango Projects", email = "evan940415@gmail.com"},
+]
+dependencies = [
+    "requests>=2.28.1",
+    "beautifulsoup4>=4.11.1",
+    "rich>=13.0.1",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}

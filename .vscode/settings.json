@@ -2,5 +2,11 @@
   "editor.tabSize": 2,
   "[python]": {
     "editor.tabSize": 4
-  }
+  },
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}\\__pypackages__\\3.11\\lib"
+  ],
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}\\__pypackages__\\3.11\\lib"
+  ]
 }
